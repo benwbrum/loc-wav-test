@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/loc-wav-test/file-2/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "File 2" ] },
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/loc-wav-test/file-2/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 272.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/loc-wav-test/file-2/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/loc-wav-test/file-2/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "http://digitizationguidelines.gov/guidelines/cue_sampleFiles/master-afc-afc1941004-afc1941004_sr06a-afc1941004_sr06a.wav",
+                  "type": "Sound",
+                  "format": "audio/wav",
+                    "duration": 272.0
+                },
+                "target": "https://benwbrum.github.io/loc-wav-test/file-2/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
