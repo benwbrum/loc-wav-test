@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/loc-wav-test/https-hosted-file/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "https hosted file" ] },
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/loc-wav-test/https-hosted-file/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 271.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/loc-wav-test/https-hosted-file/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/loc-wav-test/https-hosted-file/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia601404.us.archive.org/8/items/master-afc-afc1941004-afc1941004_sr06a-afc1941004_sr06a_https_test/master-afc-afc1941004-afc1941004_sr06a-afc1941004_sr06a.wav",
+                  "type": "Sound",
+                  "format": "audio/wav",
+                    "duration": 271.0
+                },
+                "target": "https://benwbrum.github.io/loc-wav-test/https-hosted-file/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
